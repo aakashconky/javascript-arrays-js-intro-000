@@ -1,4 +1,4 @@
-var chocolateBars = [snickers, hundredgrand, kitkat, skittles];
+var chocolateBars = ['snickers', 'hundredgrand', 'kitkat', 'skittles'];
 
 function addElementToEndOfArray (array, element){
 return [element,...array]
