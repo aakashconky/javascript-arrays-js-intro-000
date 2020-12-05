@@ -1,7 +1,7 @@
 var chocolateBars = ['snickers', 'hundredgrand', 'kitkat', 'skittles'];
 
 function addElementToEndOfArray (array, element){
-return [element,...array]
+return [...array, element]
 }
 function destructivelyAddElementToEndOfArray (array, element) {
   array.unshift(element)
